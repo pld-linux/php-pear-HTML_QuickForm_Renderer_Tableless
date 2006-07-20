@@ -50,4 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log docs/%{_pearname}/docs/examples/contact.php
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/HTML/QuickForm/Renderer/Tableless.php
+%dir %{php_pear_dir}/data/HTML_QuickForm_Renderer_Tableless
+%dir %{php_pear_dir}/data/HTML_QuickForm_Renderer_Tableless/data
 %{php_pear_dir}/data/HTML_QuickForm_Renderer_Tableless/data/stylesheet.css
