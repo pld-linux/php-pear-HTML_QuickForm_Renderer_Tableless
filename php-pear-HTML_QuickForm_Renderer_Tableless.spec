@@ -3,7 +3,6 @@
 %define		_subclass	QuickForm_Renderer_Tableless
 %define		_status		alpha
 %define		_pearname	HTML_QuickForm_Renderer_Tableless
-
 Summary:	%{_pearname} - A replacement for the default renderer that uses only XHTML and CSS but no table tags
 Summary(pl):	%{_pearname} - zamiennik dla domy¶lnego renderera korzystaj±cy tylko z XHTML i CSS ale bez znaczników tabel
 Name:		php-pear-%{_pearname}
@@ -18,7 +17,7 @@ BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-HTML_QuickForm >= 3.2.6
-Requires:	php-pear-PEAR >= 1:1.4.-0.9
+Requires:	php-pear-PEAR-core >= 1:1.4.9
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
