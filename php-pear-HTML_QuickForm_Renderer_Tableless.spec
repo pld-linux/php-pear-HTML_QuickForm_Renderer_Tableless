@@ -1,17 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTML
 %define		_subclass	QuickForm_Renderer_Tableless
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	HTML_QuickForm_Renderer_Tableless
 Summary:	%{_pearname} - A replacement for the default renderer that uses only XHTML and CSS but no table tags
 Summary(pl):	%{_pearname} - zamiennik dla domy¶lnego renderera korzystaj±cy tylko z XHTML i CSS ale bez znaczników tabel
 Name:		php-pear-%{_pearname}
-Version:	0.3.3
-Release:	2
+Version:	0.4.3
+Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	50c12c391daf517ceb9b85150e14808b
+# Source0-md5:	c59cdca6976e39772914f302fa54d8c6
 URL:		http://pear.php.net/package/HTML_QuickForm_Renderer_Tableless/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
