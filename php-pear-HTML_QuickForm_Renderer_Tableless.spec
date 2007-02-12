@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	HTML_QuickForm_Renderer_Tableless
 Summary:	%{_pearname} - A replacement for the default renderer that uses only XHTML and CSS but no table tags
-Summary(pl):	%{_pearname} - zamiennik dla domy¶lnego renderera korzystaj±cy tylko z XHTML i CSS ale bez znaczników tabel
+Summary(pl.UTF-8):   %{_pearname} - zamiennik dla domyÅ›lnego renderera korzystajÄ…cy tylko z XHTML i CSS ale bez znacznikÃ³w tabel
 Name:		php-pear-%{_pearname}
 Version:	0.4.3
 Release:	1
@@ -27,9 +27,9 @@ only XHTML and CSS but no table tags.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Zamiennik dla domy¶lnego renderera HTML_QuickForm korzystaj±cy z XHTML
-i CSS ale bez znaczników tabel
+%description -l pl.UTF-8
+Zamiennik dla domyÅ›lnego renderera HTML_QuickForm korzystajÄ…cy z XHTML
+i CSS ale bez znacznikÃ³w tabel
 
 Ta klasa ma w PEAR status: %{_status}.
 
