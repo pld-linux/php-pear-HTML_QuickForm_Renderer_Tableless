@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - A replacement for the default renderer that uses only XHTML and CSS but no table tags
 Summary(pl.UTF-8):	%{_pearname} - zamiennik dla domyślnego renderera korzystający tylko z XHTML i CSS ale bez znaczników tabel
 Name:		php-pear-%{_pearname}
-Version:	0.5.3
+Version:	0.6.0
 Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	1fe58ecdffce406abe6eb8ce715d601d
+# Source0-md5:	b7f56124a49d1e8597fd933b45ddcb08
 URL:		http://pear.php.net/package/HTML_QuickForm_Renderer_Tableless/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
