@@ -7,7 +7,7 @@ Summary:	%{_pearname} - A replacement for the default renderer that uses only XH
 Summary(pl.UTF-8):	%{_pearname} - zamiennik dla domyślnego renderera korzystający tylko z XHTML i CSS ale bez znaczników tabel
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
-Release:	1
+Release:	2
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
