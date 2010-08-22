@@ -13,6 +13,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/HTML_QuickForm_Renderer_Tableless/
 BuildRequires:	php-pear-PEAR >= 1:1.5.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-HTML_QuickForm >= 3.2.7
 BuildArch:	noarch
