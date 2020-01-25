@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	HTML_QuickForm_Renderer_Tableless
 Summary:	%{_pearname} - A replacement for the default renderer that uses only XHTML and CSS but no table tags
